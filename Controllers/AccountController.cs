@@ -25,10 +25,12 @@ namespace DotnetAPIProject.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<Account>> CreateWorkspace(AccountDto accountDto)
+        public async Task<ActionResult<Account>> CreateAccount(AccountDto accountDto)
         {
             var account = await _accountService.AddAccountAsync(accountDto);
             return CreatedAtAction(nameof(GetAccounts), new { id = account.Id }, account);
         }
+
+
     }
 }

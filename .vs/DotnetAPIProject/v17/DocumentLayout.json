@@ -3,40 +3,16 @@
   "WorkspaceRootPath": "D:\\H\u1ECDc CNTT\\api\\DotNetAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A772132E-A627-F67C-5C82-166354C7D362}|DotnetAPIProject.csproj|d:\\h\u1ECDc cntt\\api\\dotnetapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A772132E-A627-F67C-5C82-166354C7D362}|DotnetAPIProject.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A772132E-A627-F67C-5C82-166354C7D362}|DotnetAPIProject.csproj|d:\\h\u1ECDc cntt\\api\\dotnetapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A772132E-A627-F67C-5C82-166354C7D362}|DotnetAPIProject.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A772132E-A627-F67C-5C82-166354C7D362}|DotnetAPIProject.csproj|d:\\h\u1ECDc cntt\\api\\dotnetapi\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A772132E-A627-F67C-5C82-166354C7D362}|DotnetAPIProject.csproj|solutionrelative:.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A772132E-A627-F67C-5C82-166354C7D362}|DotnetAPIProject.csproj|d:\\h\u1ECDc cntt\\api\\dotnetapi\\services\\implementations\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A772132E-A627-F67C-5C82-166354C7D362}|DotnetAPIProject.csproj|solutionrelative:services\\implementations\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A772132E-A627-F67C-5C82-166354C7D362}|DotnetAPIProject.csproj|d:\\h\u1ECDc cntt\\api\\dotnetapi\\services\\implementations\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A772132E-A627-F67C-5C82-166354C7D362}|DotnetAPIProject.csproj|solutionrelative:services\\implementations\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A772132E-A627-F67C-5C82-166354C7D362}|DotnetAPIProject.csproj|d:\\h\u1ECDc cntt\\api\\dotnetapi\\controllers\\workspacecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A772132E-A627-F67C-5C82-166354C7D362}|DotnetAPIProject.csproj|solutionrelative:controllers\\workspacecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A772132E-A627-F67C-5C82-166354C7D362}|DotnetAPIProject.csproj|d:\\h\u1ECDc cntt\\api\\dotnetapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A772132E-A627-F67C-5C82-166354C7D362}|DotnetAPIProject.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A772132E-A627-F67C-5C82-166354C7D362}|DotnetAPIProject.csproj|d:\\h\u1ECDc cntt\\api\\dotnetapi\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A772132E-A627-F67C-5C82-166354C7D362}|DotnetAPIProject.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A772132E-A627-F67C-5C82-166354C7D362}|DotnetAPIProject.csproj|d:\\h\u1ECDc cntt\\api\\dotnetapi\\models\\entities\\dictionaryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A772132E-A627-F67C-5C82-166354C7D362}|DotnetAPIProject.csproj|solutionrelative:models\\entities\\dictionaryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A772132E-A627-F67C-5C82-166354C7D362}|DotnetAPIProject.csproj|d:\\h\u1ECDc cntt\\api\\dotnetapi\\models\\entities\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A772132E-A627-F67C-5C82-166354C7D362}|DotnetAPIProject.csproj|solutionrelative:models\\entities\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A772132E-A627-F67C-5C82-166354C7D362}|DotnetAPIProject.csproj|d:\\h\u1ECDc cntt\\api\\dotnetapi\\models\\entities\\workspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A772132E-A627-F67C-5C82-166354C7D362}|DotnetAPIProject.csproj|solutionrelative:models\\entities\\workspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A772132E-A627-F67C-5C82-166354C7D362}|DotnetAPIProject.csproj|d:\\h\u1ECDc cntt\\api\\dotnetapi\\models\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A772132E-A627-F67C-5C82-166354C7D362}|DotnetAPIProject.csproj|solutionrelative:models\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,112 +54,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\H\u1ECDc CNTT\\api\\DotNetAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\H\u1ECDc CNTT\\api\\DotNetAPI\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-13T16:37:25.909Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DictionaryItem.cs",
-              "DocumentMoniker": "D:\\H\u1ECDc CNTT\\api\\DotNetAPI\\Models\\Entities\\DictionaryItem.cs",
-              "RelativeDocumentMoniker": "Models\\Entities\\DictionaryItem.cs",
-              "ToolTip": "D:\\H\u1ECDc CNTT\\api\\DotNetAPI\\Models\\Entities\\DictionaryItem.cs",
-              "RelativeToolTip": "Models\\Entities\\DictionaryItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T16:34:11.989Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Workspace.cs",
-              "DocumentMoniker": "D:\\H\u1ECDc CNTT\\api\\DotNetAPI\\Models\\Entities\\Workspace.cs",
-              "RelativeDocumentMoniker": "Models\\Entities\\Workspace.cs",
-              "ToolTip": "D:\\H\u1ECDc CNTT\\api\\DotNetAPI\\Models\\Entities\\Workspace.cs",
-              "RelativeToolTip": "Models\\Entities\\Workspace.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T16:34:06.044Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Account.cs",
-              "DocumentMoniker": "D:\\H\u1ECDc CNTT\\api\\DotNetAPI\\Models\\Entities\\Account.cs",
-              "RelativeDocumentMoniker": "Models\\Entities\\Account.cs",
-              "ToolTip": "D:\\H\u1ECDc CNTT\\api\\DotNetAPI\\Models\\Entities\\Account.cs",
-              "RelativeToolTip": "Models\\Entities\\Account.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T16:34:02.23Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AccountService.cs",
-              "DocumentMoniker": "D:\\H\u1ECDc CNTT\\api\\DotNetAPI\\Services\\Implementations\\AccountService.cs",
-              "RelativeDocumentMoniker": "Services\\Implementations\\AccountService.cs",
-              "ToolTip": "D:\\H\u1ECDc CNTT\\api\\DotNetAPI\\Services\\Implementations\\AccountService.cs",
-              "RelativeToolTip": "Services\\Implementations\\AccountService.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAMwBQAAAAMAAAAAAAAAA==",
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "D:\\H\u1ECDc CNTT\\api\\DotNetAPI\\Models\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\LoginDto.cs",
+              "ToolTip": "D:\\H\u1ECDc CNTT\\api\\DotNetAPI\\Models\\DTOs\\LoginDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T16:28:59.1Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": ".env",
-              "DocumentMoniker": "D:\\H\u1ECDc CNTT\\api\\DotNetAPI\\.env",
-              "RelativeDocumentMoniker": ".env",
-              "ToolTip": "D:\\H\u1ECDc CNTT\\api\\DotNetAPI\\.env",
-              "RelativeToolTip": ".env",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-02-13T16:28:25.663Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": ".gitignore",
-              "DocumentMoniker": "D:\\H\u1ECDc CNTT\\api\\DotNetAPI\\.gitignore",
-              "RelativeDocumentMoniker": ".gitignore",
-              "ToolTip": "D:\\H\u1ECDc CNTT\\api\\DotNetAPI\\.gitignore",
-              "RelativeToolTip": ".gitignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-02-13T16:28:23.955Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\H\u1ECDc CNTT\\api\\DotNetAPI\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\H\u1ECDc CNTT\\api\\DotNetAPI\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T16:28:09.886Z",
+              "WhenOpened": "2025-02-15T15:53:30.648Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WorkspaceController.cs",
-              "DocumentMoniker": "D:\\H\u1ECDc CNTT\\api\\DotNetAPI\\Controllers\\WorkspaceController.cs",
-              "RelativeDocumentMoniker": "Controllers\\WorkspaceController.cs",
-              "ToolTip": "D:\\H\u1ECDc CNTT\\api\\DotNetAPI\\Controllers\\WorkspaceController.cs",
-              "RelativeToolTip": "Controllers\\WorkspaceController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAYwBAAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\H\u1ECDc CNTT\\api\\DotNetAPI\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "D:\\H\u1ECDc CNTT\\api\\DotNetAPI\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAowDMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T16:42:16.193Z"
+              "WhenOpened": "2025-02-15T15:40:21.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "D:\\H\u1ECDc CNTT\\api\\DotNetAPI\\Services\\Implementations\\LoginService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\LoginService.cs",
+              "ToolTip": "D:\\H\u1ECDc CNTT\\api\\DotNetAPI\\Services\\Implementations\\LoginService.cs",
+              "RelativeToolTip": "Services\\Implementations\\LoginService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T15:31:42.113Z",
+              "EditorCaption": ""
             }
           ]
         }

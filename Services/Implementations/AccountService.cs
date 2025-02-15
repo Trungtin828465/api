@@ -25,10 +25,11 @@ namespace DotnetAPIProject.Services.Implementations
         {
             var account = new Account
             {
-                Fullname = accountDto.Fullname,
+                UserName = accountDto.UserName,
                 Email = accountDto.Email,
-                PassWord = accountDto.PassWord,
-
+                NumberPhone = accountDto.PhoneNumber,
+                Password = accountDto.Password,
+                ConfirmPassword = accountDto.ConfirmPassword
             };
 
             _context.Accounts.Add(account);
@@ -36,7 +37,8 @@ namespace DotnetAPIProject.Services.Implementations
             return account;
         }
 
-    
+
+
         //public async Task<Workspace?> UpdateWorkspaceAsync(int id, WorkspaceDto workspaceDto)
         //{
         //    var workspace = await _context.Workspaces.FindAsync(id);

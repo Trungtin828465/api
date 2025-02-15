@@ -102,6 +102,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(
 builder.Services.AddScoped<IDictionaryService, DictionaryService>();
 builder.Services.AddScoped<IWorkspaceService, WorkspaceService>();
 builder.Services.AddScoped<IAccountService, AccountService>();
+builder.Services.AddScoped<ILoginService, LoginService>();
+
 
 
 // Add OpenAPI
