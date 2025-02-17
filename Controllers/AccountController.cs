@@ -24,12 +24,28 @@ namespace DotnetAPIProject.Controllers
             return Ok(accounts);
         }
 
+      
         [HttpPost]
-        public async Task<ActionResult<Account>> CreateAccount(AccountDto accountDto)
+        public async Task<IActionResult> CreateAccount([FromBody] AccountDto accountDto)
         {
-            var account = await _accountService.AddAccountAsync(accountDto);
-            return CreatedAtAction(nameof(GetAccounts), new { id = account.Id }, account);
+            try
+            {
+                // Gọi Service để thêm tài khoản
+                var account = await _accountService.AddAccountAsync(accountDto);
+                // nếu tạo thành công
+                return CreatedAtAction(nameof(GetAccounts), new { id = account.Id }, account);
+            }
+            catch (ArgumentException ex)
+            {
+                // báo lỗi ở service
+                return BadRequest(new { message = ex.Message });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { message = "Lỗi hệ thống!", error = ex.Message });
+            }
         }
+
 
 
     }

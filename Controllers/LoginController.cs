@@ -23,31 +23,47 @@ namespace DotnetAPIProject.Controllers
             var login = await _iLoginService.GetLoginAsync();
             return Ok(login);
         }
-
-        //[HttpPost]
-        //public async Task<ActionResult<Account>> CreateAccount(AccountDto accountDto)
+        //[HttpPost("login")]
+        //public async Task<IActionResult> CheckLogin([FromBody] LoginDto loginDto)
         //{
-        //    var account = await _iLoginService.CheckLoginAsync(accountDto);
-        //    return CreatedAtAction(nameof(GetLogin), new { id = account.Id }, account);
-        //}
+        //    if (!ModelState.IsValid)
+        //    {
+        //        return BadRequest(ModelState);
+        //    }
 
-        [HttpPost("login")]
+        //    var account = await _iLoginService.CheckLoginAsync(loginDto.UserName, loginDto.Password);
+
+        //    if (account == null)
+        //    {
+        //        return Unauthorized(new { message = "Sai tài khoản hoặc mật khẩu!" });
+        //    }
+
+        //    return Ok(new { message = "Đăng nhập thành công", account });
+        //}
+        [HttpPost("Login")]
         public async Task<IActionResult> CheckLogin([FromBody] LoginDto loginDto)
         {
-            if (!ModelState.IsValid)
+            try
             {
-                return BadRequest(ModelState);
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest(ModelState);
+                }
+
+                var account = await _iLoginService.CheckLoginAsync(loginDto.UserName, loginDto.Password);
+
+                return Ok(new { message = "Đăng nhập thành công", account });
             }
-
-            var account = await _iLoginService.CheckLoginAsync(loginDto.UserName, loginDto.Password);
-
-            if (account == null)
+            catch (ArgumentException ex)
             {
-                return Unauthorized(new { message = "Sai tài khoản hoặc mật khẩu!" });
+                return BadRequest(new { message = ex.Message });
             }
-
-            return Ok(new { message = "Đăng nhập thành công", account });
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { message = "Lỗi hệ thống!", error = ex.Message });
+            }
         }
+
 
     }
 }

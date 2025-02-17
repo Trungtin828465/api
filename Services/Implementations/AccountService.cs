@@ -23,6 +23,21 @@ namespace DotnetAPIProject.Services.Implementations
 
         public async Task<Account> AddAccountAsync(AccountDto accountDto)
         {
+            bool CheckUser = await _context.Accounts.AnyAsync(p => p.UserName == accountDto.UserName);
+            bool CheckEmail = await _context.Accounts.AnyAsync(p => p.Email == accountDto.Email);
+
+            if (CheckUser)
+            {
+                // nếu lỗi thì controller sẽ xử  lý đến và thông báo ra
+                throw new ArgumentException("Tên tài khoản đã tồn tại!"); 
+              
+            }
+            else if (CheckEmail)
+            {
+                throw new ArgumentException("Tên email đã tồn tại!");
+
+            }
+
             var account = new Account
             {
                 UserName = accountDto.UserName,
@@ -31,26 +46,15 @@ namespace DotnetAPIProject.Services.Implementations
                 Password = accountDto.Password,
                 ConfirmPassword = accountDto.ConfirmPassword
             };
-
             _context.Accounts.Add(account);
-            await _context.SaveChangesAsync();
+            await _context.SaveChangesAsync(); // Lưu vào database
+
             return account;
         }
 
 
 
-        //public async Task<Workspace?> UpdateWorkspaceAsync(int id, WorkspaceDto workspaceDto)
-        //{
-        //    var workspace = await _context.Workspaces.FindAsync(id);
-        //    if (workspace == null)
-        //        return null;
 
-        //    workspace.Name = workspaceDto.Name;
-        //    workspace.Description = workspaceDto.Description;
-
-        //    await _context.SaveChangesAsync();
-        //    return workspace;
-        //}
     }
 
 }

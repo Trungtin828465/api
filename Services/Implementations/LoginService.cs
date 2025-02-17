@@ -20,14 +20,30 @@ namespace DotnetAPIProject.Services.Implementations
         {
             return await _context.Accounts.ToListAsync();
         }
-        public async Task<Account?> CheckLoginAsync(string userName, string password)
-        {
-            var account = await _context.Accounts
-                .FirstOrDefaultAsync(a => a.UserName == userName);
+        //public async Task<Account?> CheckLoginAsync(string userName, string password)
+        //{
+        //    var account = await _context.Accounts
+        //        .FirstOrDefaultAsync(a => a.UserName == userName);
 
-            if (account == null || account.Password != password)
+        //    if (account == null || account.Password != password)
+        //    {
+        //        return null; 
+        //    }
+
+        //    return account;
+        //}
+        public async Task<Account> CheckLoginAsync(string userName, string password)
+        {
+            var account = await _context.Accounts.FirstOrDefaultAsync(a => a.UserName == userName);
+
+            if (account == null)
             {
-                return null; 
+                throw new ArgumentException("Tên tài khoản không tồn tại!");
+            }
+
+            if (account.Password != password) // So sánh trực tiếp mật khẩu
+            {
+                throw new ArgumentException("Sai mật khẩu!");
             }
 
             return account;

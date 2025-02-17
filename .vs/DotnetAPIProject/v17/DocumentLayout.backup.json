@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "D:\\H\u1ECDc CNTT\\api\\DotNetAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A772132E-A627-F67C-5C82-166354C7D362}|DotnetAPIProject.csproj|d:\\h\u1ECDc cntt\\api\\dotnetapi\\services\\implementations\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A772132E-A627-F67C-5C82-166354C7D362}|DotnetAPIProject.csproj|solutionrelative:services\\implementations\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A772132E-A627-F67C-5C82-166354C7D362}|DotnetAPIProject.csproj|d:\\h\u1ECDc cntt\\api\\dotnetapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A772132E-A627-F67C-5C82-166354C7D362}|DotnetAPIProject.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A772132E-A627-F67C-5C82-166354C7D362}|DotnetAPIProject.csproj|d:\\h\u1ECDc cntt\\api\\dotnetapi\\models\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A772132E-A627-F67C-5C82-166354C7D362}|DotnetAPIProject.csproj|solutionrelative:models\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A772132E-A627-F67C-5C82-166354C7D362}|DotnetAPIProject.csproj|d:\\h\u1ECDc cntt\\api\\dotnetapi\\services\\implementations\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A772132E-A627-F67C-5C82-166354C7D362}|DotnetAPIProject.csproj|solutionrelative:services\\implementations\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A772132E-A627-F67C-5C82-166354C7D362}|DotnetAPIProject.csproj|d:\\h\u1ECDc cntt\\api\\dotnetapi\\services\\interfaces\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A772132E-A627-F67C-5C82-166354C7D362}|DotnetAPIProject.csproj|solutionrelative:services\\interfaces\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A772132E-A627-F67C-5C82-166354C7D362}|DotnetAPIProject.csproj|d:\\h\u1ECDc cntt\\api\\dotnetapi\\services\\implementations\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A772132E-A627-F67C-5C82-166354C7D362}|DotnetAPIProject.csproj|solutionrelative:services\\implementations\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +22,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "D:\\H\u1ECDc CNTT\\api\\DotNetAPI\\Services\\Implementations\\AccountService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\AccountService.cs",
+              "ToolTip": "D:\\H\u1ECDc CNTT\\api\\DotNetAPI\\Services\\Implementations\\AccountService.cs",
+              "RelativeToolTip": "Services\\Implementations\\AccountService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwDMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T07:30:25.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "D:\\H\u1ECDc CNTT\\api\\DotNetAPI\\Services\\Implementations\\LoginService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\LoginService.cs",
+              "ToolTip": "D:\\H\u1ECDc CNTT\\api\\DotNetAPI\\Services\\Implementations\\LoginService.cs*",
+              "RelativeToolTip": "Services\\Implementations\\LoginService.cs*",
+              "ViewState": "AgIAABMAAAAAAAAAAAAowCEAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T07:26:40.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\H\u1ECDc CNTT\\api\\DotNetAPI\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "D:\\H\u1ECDc CNTT\\api\\DotNetAPI\\Controllers\\LoginController.cs*",
+              "RelativeToolTip": "Controllers\\LoginController.cs*",
+              "ViewState": "AgIAACUAAAAAAAAAAAAowC8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T07:25:43.822Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -55,58 +90,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ILoginService.cs",
-              "DocumentMoniker": "D:\\H\u1ECDc CNTT\\api\\DotNetAPI\\Services\\Interfaces\\ILoginService.cs",
-              "RelativeDocumentMoniker": "Services\\Interfaces\\ILoginService.cs",
-              "ToolTip": "D:\\H\u1ECDc CNTT\\api\\DotNetAPI\\Services\\Interfaces\\ILoginService.cs",
-              "RelativeToolTip": "Services\\Interfaces\\ILoginService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T16:09:19.584Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LoginDto.cs",
-              "DocumentMoniker": "D:\\H\u1ECDc CNTT\\api\\DotNetAPI\\Models\\DTOs\\LoginDto.cs",
-              "RelativeDocumentMoniker": "Models\\DTOs\\LoginDto.cs",
-              "ToolTip": "D:\\H\u1ECDc CNTT\\api\\DotNetAPI\\Models\\DTOs\\LoginDto.cs",
-              "RelativeToolTip": "Models\\DTOs\\LoginDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T15:53:30.648Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "D:\\H\u1ECDc CNTT\\api\\DotNetAPI\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
-              "ToolTip": "D:\\H\u1ECDc CNTT\\api\\DotNetAPI\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "Controllers\\LoginController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAwCcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T15:40:21.714Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LoginService.cs",
-              "DocumentMoniker": "D:\\H\u1ECDc CNTT\\api\\DotNetAPI\\Services\\Implementations\\LoginService.cs",
-              "RelativeDocumentMoniker": "Services\\Implementations\\LoginService.cs",
-              "ToolTip": "D:\\H\u1ECDc CNTT\\api\\DotNetAPI\\Services\\Implementations\\LoginService.cs",
-              "RelativeToolTip": "Services\\Implementations\\LoginService.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwC0AAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T15:31:42.113Z",
-              "EditorCaption": ""
             }
           ]
         }
