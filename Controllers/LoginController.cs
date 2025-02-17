@@ -23,23 +23,7 @@ namespace DotnetAPIProject.Controllers
             var login = await _iLoginService.GetLoginAsync();
             return Ok(login);
         }
-        //[HttpPost("login")]
-        //public async Task<IActionResult> CheckLogin([FromBody] LoginDto loginDto)
-        //{
-        //    if (!ModelState.IsValid)
-        //    {
-        //        return BadRequest(ModelState);
-        //    }
-
-        //    var account = await _iLoginService.CheckLoginAsync(loginDto.UserName, loginDto.Password);
-
-        //    if (account == null)
-        //    {
-        //        return Unauthorized(new { message = "Sai tài khoản hoặc mật khẩu!" });
-        //    }
-
-        //    return Ok(new { message = "Đăng nhập thành công", account });
-        //}
+      
         [HttpPost("Login")]
         public async Task<IActionResult> CheckLogin([FromBody] LoginDto loginDto)
         {

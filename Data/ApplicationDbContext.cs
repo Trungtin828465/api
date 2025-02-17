@@ -11,7 +11,7 @@ public class ApplicationDbContext : DbContext
     public DbSet<DictionaryItem> DictionaryItems { get; set; } = null!;
     public DbSet<Workspace> Workspaces { get; set; } = null!;
     public DbSet<Account> Accounts { get; set; } = null!;
-
+    public DbSet<ForgotPassword> ForgotPasswords { get; set; } = null!;
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
